@@ -1,0 +1,40 @@
+.Heading{
+    /* color:red;
+    border:2px solid red; */
+    font-size: 0.5rem;
+}
+*{
+    background-color: lightgray;
+}
+.display{
+    min-height: 8rem;
+    min-width: 15rem;
+}
+.headingtext{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.display{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+.halfWidth{
+    width: 50vw;
+}
+.container{
+    background: floralwhite;
+}
+@media only screen and (max-width: 776px) {
+    .display{
+        font-size: 0.8rem;
+        font-weight: bold;
+        padding-top: 2rem;
+        margin-top: 2rem;
+    }
+    .headingtext{
+        font-size: 1.2rem;
+    }
+}
